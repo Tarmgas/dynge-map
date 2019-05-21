@@ -2,11 +2,11 @@
 
 const config = {};
 
-config.networkNodeListJSONurl = 'https://raw.githubusercontent.com/wrkzcoin/wrkzcoin-nodes-json/master/wrkzcoin-nodes.json';
+config.networkNodeListJSONurl = 'https://github.com/Tarmgas/dyngecoin-nodes-json/blob/master/dyngecoin-nodes.json';
 
 config.serverHost = '127.0.0.1';
 
-config.serverPort = 1080;
+config.serverPort = 7774;
 
 config.networkNodeTimeout = 10;
 
@@ -14,11 +14,11 @@ config.statsUpdateInterval = 15;
 
 config.nodeTTL = 3600;
 
-config.rpcPort = 17856;
+config.rpcPort = 7771;
 
 config.queueReseedDelay = 60;
 
-config.dnsServers = ['8.8.8.8', '8.8.4.4'];
+config.dnsServers = ['1.1.1.1', '1.0.0.1'];
 
 config.logging = {
   files: {
