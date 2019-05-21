@@ -1,10 +1,10 @@
-# shell-map
+# dynge-map
 
 ## Setup
 
 ```
-git clone https://github.com/DiscoTim/shell-map.git
-cd shell-map
+git clone https://github.com/Tarmgas/dynge-map.git
+cd dynge-map
 npm install
 node ./node_modules/geoip-lite/scripts/updatedb.js
 ```
