@@ -24,10 +24,10 @@ if (cluster.isWorker) {
 
 function spawnWorker() {
   var worker = cluster.fork({
-    workerType: "shell-map"
+    workerType: "dynge-map"
   });
   worker.on("exit", function(code, signal) {
-    log("error", logSystem, "shell-map died, spawning replacement...");
+    log("error", logSystem, "dynge-map died, spawning replacement...");
     setTimeout(function() {
       spawnWorker();
     }, 5000);
